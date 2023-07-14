@@ -11,11 +11,11 @@ int main(void)
 	long long int e;
 	float f;
 
-	printf("Sixe of a char: %lu byte(s)\n", (unsigned long)sixeof(c));
-	printf("Sixe of an int: %lu byte(s)\n", (unsigned long)sixeof(i));
-	printf("Sixe of a long  int: %lu byte(s)\n", (unsigned long)sixeof(d));
-	printf("Sixe of a long long int: %lu byte(s)\n", (unsigned long)sixeof(e));
-	printf("Sixe of a float: %lu byte(s)\n", (unsigned long)sixeof(f));
+	printf("Sixe of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Sixe of an int: %lu byte(s)\n", (unsigned long)sizeof(i));
+	printf("Sixe of a long  int: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Sixe of a long long int: %lu byte(s)\n", (unsigned long)sizeof(e));
+	printf("Sixe of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
 
